@@ -1,13 +1,196 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Management</title>
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl ">
-    Hello world!
-  </h1>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">🏨 HotelEase</h1>
+      <ul class="flex space-x-6 text-gray-700 font-medium">
+        <li><a href="#" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#" class="hover:text-blue-600">Rooms</a></li>
+        <li><a href="#" class="hover:text-blue-600">Services</a></li>
+        <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Welcome to Our Hotel</h2>
+    <p class="text-lg mb-6">Comfort, Luxury & Best Hospitality Experience</p>
+    <button class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">
+      Book Now
+    </button>
+  </section>
+
+  <!-- Services --> 
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-12">Our Services</h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="text-xl font-semibold mb-2">🛏 Luxury Rooms</h4>
+        <p class="text-gray-600">Well furnished rooms with all modern facilities.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="text-xl font-semibold mb-2">🍽 Restaurant</h4>
+        <p class="text-gray-600">Delicious food prepared by expert chefs.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h4 class="text-xl font-semibold mb-2">🛎 24/7 Service</h4>
+        <p class="text-gray-600">Always available to make your stay comfortable.</p>
+      </div>
+
+    </div>
+  </section>
+  <!---->
+  <section class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Rooms</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="border rounded-lg p-6 shadow">
+        <h3 class="text-xl font-semibold mb-2">Standard Room</h3>
+        <p class="text-gray-600 mb-3">Comfortable & affordable</p>
+        <p class="font-bold text-blue-600">₹2,500 / Night</p>
+      </div>
+
+      <div class="border rounded-lg p-6 shadow">
+        <h3 class="text-xl font-semibold mb-2">Deluxe Room</h3>
+        <p class="text-gray-600 mb-3">Luxury with balcony view</p>
+        <p class="font-bold text-blue-600">₹4,500 / Night</p>
+      </div>
+
+      <div class="border rounded-lg p-6 shadow">
+        <h3 class="text-xl font-semibold mb-2">Suite Room</h3>
+        <p class="text-gray-600 mb-3">Premium & royal stay</p>
+        <p class="font-bold text-blue-600">₹7,000 / Night</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-6 py-20">
+  <div class="grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- Left Content -->
+    <div>
+      <h2 class="text-4xl font-bold mb-6 text-gray-800">
+        About Our Hotel
+      </h2>
+
+      <p class="text-gray-600 mb-4 leading-relaxed">
+        <strong>HotelEase</strong> is a modern hotel management system focused on
+        providing comfort, luxury, and high-quality hospitality services.
+        We are committed to delivering a memorable stay experience for every guest.
+      </p>
+
+      <p class="text-gray-600 mb-4 leading-relaxed">
+        Our hotel offers well-designed rooms equipped with modern amenities such as
+        air-conditioning, high-speed Wi-Fi, 24/7 room service, and elegant interiors.
+        Whether you are traveling for business or leisure, HotelEase ensures
+        a relaxing and stress-free stay.
+      </p>
+
+      <p class="text-gray-600 mb-6 leading-relaxed">
+        With years of experience in the hospitality industry, our professional staff
+        is dedicated to meeting guest expectations through personalized service,
+        cleanliness, and attention to detail. We believe hospitality is not just
+        a service, but an experience.
+      </p>
+
+      <!-- Highlights -->
+      <div class="grid grid-cols-2 gap-6">
+        <div>
+          <h4 class="text-2xl font-bold text-blue-600">10+</h4>
+          <p class="text-gray-600">Years of Experience</p>
+        </div>
+        <div>
+          <h4 class="text-2xl font-bold text-blue-600">5000+</h4>
+          <p class="text-gray-600">Happy Guests</p>
+        </div>
+        <div>
+          <h4 class="text-2xl font-bold text-blue-600">50+</h4>
+          <p class="text-gray-600">Luxury Rooms</p>
+        </div>
+        <div>
+          <h4 class="text-2xl font-bold text-blue-600">24/7</h4>
+          <p class="text-gray-600">Customer Support</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="bg-blue-600 text-white p-10 rounded-2xl shadow-lg">
+      <h3 class="text-3xl font-semibold mb-4">
+        Why Choose HotelEase?
+      </h3>
+
+      <ul class="space-y-4">
+        <li>✔ Comfortable & well-furnished rooms</li>
+        <li>✔ Professional and friendly staff</li>
+        <li>✔ Multi-cuisine restaurant</li>
+        <li>✔ Affordable pricing & best offers</li>
+        <li>✔ Safe, clean & secure environment</li>
+      </ul>
+
+      <button class="mt-8 bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">
+        Learn More
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!---->
+<section class="bg-gray-100 py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Guest Reviews</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded shadow">
+        <p class="text-gray-600">“Amazing service and very clean rooms!”</p>
+        <h4 class="font-semibold mt-4">– Rahul Sharma</h4>
+      </div>
+
+      <div class="bg-white p-6 rounded shadow">
+        <p class="text-gray-600">“Best hotel experience ever.”</p>
+        <h4 class="font-semibold mt-4">– Aesha Modi</h4>
+      </div>
+
+      <div class="bg-white p-6 rounded shadow">
+        <p class="text-gray-600">“Perfect location and friendly staff.”</p>
+        <h4 class="font-semibold mt-4">– Neha Patel</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-blue-600 text-white py-16">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Ready to Book Your Stay?</h2>
+    <p class="mb-6">Contact us now for best offers and discounts</p>
+    <button class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100">
+      Contact Us
+    </button>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>© 2025 HotelEase. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
